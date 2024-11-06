@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        /* Todo List Styles */
+        .todo-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .todo-input {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .todo-input input {
+            flex: 1;
+            padding: 8px;
+        }
+        .todo-input button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .todo-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .todo-item input[type="text"] {
+            flex: 1;
+            padding: 5px;
+        }
+        /* Cards Styles */
+        .cards-container {
+            display: grid;
+            gap: 20px;
+            padding: 20px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .card {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .cards-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .card:last-child {
+                grid-column: span 2;
+            }
+        }
+        @media (max-width: 480px) {
+            .cards-container {
+                grid-template-columns: 1fr;
+            }
+            .card:last-child {
+                grid-column: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" data-page="home">Home</a>
+        <a href="#" data-page="cards">Cards</a>
+    </nav>
+
+    <div class="content">
+        <div id="home" class="page">
+            <div class="todo-container">
+                <div class="todo-input">
+                    <input type="text" id="newTask" placeholder="Enter new task">
+                    <button id="addTaskBtn">Add Task</button>
+                </div>
+                <div id="todoList"></div>
+            </div>
+        </div>
+
+        <div id="cards" class="page" style="display: none;">
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
