@@ -4,14 +4,8 @@ const addTaskBtn = document.getElementById('addTaskBtn');
 const navLinks = document.querySelectorAll('nav a');
 const pages = document.querySelectorAll('.page');
 
-addTaskBtn.addEventListener('click', addTask);
-navLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        showPage(e.target.dataset.page);
-    });
-});
-
+addTaskBtn.onClick = addTask;
+navLinks.forEach(link => link.onclick = e => showPage(e.target.dataset.page, e.preventDefault()))
 
 function addTask() {
     if (!todoInput.value.trim()) return;
