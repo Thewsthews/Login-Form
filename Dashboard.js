@@ -42,12 +42,9 @@ function deleteTask(todoItem) {
 }
 
 // Page navigation
-function showPage(pageId) {
-    pages.forEach(page => {
-        page.style.display = 'none';
-    });
-    document.getElementById(pageId).style.display = 'block';
+const showPage = id =>{
+    pages.forEach(page => page.style.dispaly = 'none');
+    document.getElementById(id).style.display = 'block';
 }
-
 // Initialize the home page as default
 showPage('home');
