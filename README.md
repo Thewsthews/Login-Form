@@ -1,6 +1,6 @@
 # Simple Login & Dashboard Application 📝
 
-## Overview
+## Overview 🔍
 This is a simple front-end application that demonstrates a login system with form validation, a responsive dashboard, a todo list, and responsive card layouts. The application is built using vanilla HTML, CSS, and JavaScript without any external dependencies.
 
 ## Features
