@@ -3,7 +3,7 @@
 ## Overview 🔍
 This is a simple front-end application that demonstrates a login system with form validation, a responsive dashboard, a todo list, and responsive card layouts. The application is built using vanilla HTML, CSS, and JavaScript without any external dependencies.
 
-## Features
+## Features ☝🏾
 
 ### 1. Login Page
 - Email validation
@@ -30,7 +30,7 @@ This is a simple front-end application that demonstrates a login system with for
   - Mobile: Single column layout
 - Lorem ipsum content for demonstration
 
-## File Structure
+## File Structure 🕸️
 project/
 │
 ├── index.html      # Login page
@@ -43,7 +43,3 @@ project/
 - HTML5
 - CSS3
 - Vanilla JavaScript
-
-### Key Components
-
-#### Login Validation
