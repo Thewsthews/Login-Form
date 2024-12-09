@@ -5,7 +5,7 @@ This is a simple front-end application that demonstrates a login system with for
 
 ## Features ☝🏾
 
-### 1. Login Page
+### 1. Login Page 🗝️
 - Email validation
 - Password validation (minimum 8 characters)
 - Dynamic submit button enabling/disabling based on validation
