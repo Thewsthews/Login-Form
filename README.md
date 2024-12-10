@@ -11,7 +11,7 @@ This is a simple front-end application that demonstrates a login system with for
 - Dynamic submit button enabling/disabling based on validation
 - Redirect to dashboard upon successful login
 
-### 2. Dashboard
+### 2. Dashboard 🗺️
 - Responsive navigation menu
 - Two main sections:
   - Home (Todo List)
