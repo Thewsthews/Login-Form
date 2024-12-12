@@ -23,7 +23,7 @@ This is a simple front-end application that demonstrates a login system with for
 - Delete tasks
 - Note: Data is not persistent (clears on page reload)
 
-### 4. Cards Layout Page
+### 4. Cards Layout Page 📜
 - Responsive design for different screen sizes:
   - Desktop: 3 cards in a row
   - Tablet: 2 cards in first row, 1 card below
