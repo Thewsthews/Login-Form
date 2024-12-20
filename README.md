@@ -17,7 +17,7 @@ This is a simple front-end application that demonstrates a login system with for
   - Home (Todo List)
   - Cards Layout
 
-### 3. Todo List (Home Page)
+### 3. Todo List (Home Page) 🏠
 - Add new tasks
 - Update existing tasks
 - Delete tasks
