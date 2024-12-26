@@ -39,7 +39,7 @@ project/
 
 ##Technical Implementation
 
-### Technologies Used
+### Technologies Used 🔧
 - HTML5
 - CSS3
 - Vanilla JavaScript
